@@ -44,22 +44,35 @@ Os dados foram disponibilizados em dois arquivos: `Bootcamp_train.csv` para trei
 O desenvolvimento do projeto foi dividido em três etapas principais, documentadas nos seguintes notebooks:
 
 1.  **`01_ead.ipynb` - 🔍 Análise Exploratória de Dados:**
+   
+Objtivo: Entender o Problema e os Dados 🕵️‍♂️: Primeiro, vamos mergulhar no contexto do negócio. Qual é o problema que a empresa quer resolver? E o que os dados nos dizem antes mesmo de criarmos qualquer modelo?
+
     * Análise inicial das variáveis, incluindo estatísticas descritivas, tipos de dados e valores ausentes.
     * Visualização da distribuição das variáveis numéricas e categóricas.
     * Análise de correlação entre as variáveis para identificar relacionamentos.
     * Investigação do balanceamento das classes de falha.
 
-2.  **`02_Classificação_binaria.ipynb` - ✔️ Modelo de Classificação Binária:**
+3.  **`02_Classificação_binaria.ipynb` - ✔️ Modelo de Classificação Binária:**
+Objetivo: A Primeira Previsão (Sim ou Não) ✅❌: Depois, focamos na primeira grande pergunta: a máquina vai falhar ou não? Aqui, exploramos a modelagem de classificação binária.
+
     * Foco na previsão da variável alvo `falha_maquina`.
     * Pré-processamento dos dados, incluindo normalização e codificação de variáveis categóricas.
     * Treinamento e avaliação de modelos de classificação (ex: Regressão Logística, Random Forest, etc.).
     * Seleção da melhor métrica de avaliação para o problema (ex: Acurácia, F1-Score, AUC).
 
-3.  **`03_Multirrotulo.ipynb` - 🏷️ Modelo de Classificação Multirrótulo:**
+5.  **`03_Multirrotulo.ipynb` - 🏷️ Modelo de Classificação Multirrótulo:**
+6.  
+Objetivo: O Diagnóstico Preciso (Qual Falha?) 🔧: Por fim, vamos ao desafio mais complexo: prever qual o tipo específico de falha. Aqui, entramos no mundo da classificação multirrótulo.
+
     * Abordagem para prever os tipos específicos de falha (`FDF`, `FDC`, `FP`, `FTE`, `FA`).
     * Adaptação dos modelos para um cenário multirrótulo.
     * Avaliação do desempenho do modelo para cada tipo de falha individualmente.
     * Essa abordagem está alinhada com a API de avaliação, que considera o problema como multirrótulo.
+
+
+
+
+
 
 ## 📁 Estrutura do Projeto
 
