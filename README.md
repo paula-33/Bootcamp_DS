@@ -50,7 +50,7 @@ O desenvolvimento do projeto foi dividido em três etapas principais, documentad
     * Investigação do balanceamento das classes de falha.
 
 3.  **`02_Classificação_binaria.ipynb` - ✔️ Modelo de Classificação Binária:**
-Objetivo: A Primeira Previsão (Sim ou Não) ✅❌: Depois, focamos na primeira grande pergunta: a máquina vai falhar ou não? Aqui, exploramos a modelagem de classificação binária.
+Objetivo: A Primeira Previsão (Sim ou Não) ✅❌: A pergunta principal, a máquina vai falhar ou não? Aqui, exploramos a modelagem de classificação binária.
 
     * Foco na previsão da variável alvo `falha_maquina`.
     * Pré-processamento dos dados, incluindo normalização e codificação de variáveis categóricas.
